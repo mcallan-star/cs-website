@@ -1,0 +1,1 @@
+<footer>&copy; 2025 Hello Kitty Fan Site. All rights reserved! 🐈</footer>

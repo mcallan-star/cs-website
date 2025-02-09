@@ -7,11 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>🌸 Welcome to the Hello Kitty Fan Site! 🎀</header>
-    
-    <nav>
-        <a href="name-generator.php">Generate Your Hello Kitty Name</a>
-    </nav>
+    <?php include 'header.php'; ?>
 
     <div class="container">
         <h1>🩷 Cute Hello Kitty Gallery 🩷</h1>
@@ -23,6 +19,7 @@
         </div>
     </div>
 
-    <footer>&copy; 2025 Hello Kitty Fan Site. All rights reserved.</footer>
+    <?php include 'footer.php'; ?>
+    
 </body>
 </html>

@@ -7,12 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>🎀 Hello Kitty Name Generator 🎀</header>
-
-    <nav>
-        <a href="index.php">Back to Gallery</a>
-    </nav>
-
+    <?php include 'header.php'; ?>
     <div class="container">
         <h1>🌸 Get Your Hello Kitty Name! 🌸</h1>
         <p>Click the button below to receive a super cute Hello Kitty name!</p>
@@ -39,6 +34,6 @@
         </form>
     </div>
 
-    <footer>&copy; 2025 Hello Kitty Fan Site. All rights reserved.</footer>
+    <?php include 'footer.php'; ?>
 </body>
 </html>
