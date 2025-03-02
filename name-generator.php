@@ -10,12 +10,12 @@
     <?php include 'header.php'; ?>
     <div class="container">
         <h1>🌸 Get Your Hello Kitty Name! 🌸</h1>
-        <p>Click the button below to receive a super cute Hello Kitty name!</p>
+        <p>Click the button below to receive a Hello Kitty name!</p>
 
         <?php
             function generateHelloKittyName() {
-                $adjectives = ["Fluffy", "Sparkly", "Sweet", "Snuggly", "Bouncy", "Chirpy", "Peachy", "Cuddly", "Fuzzy", "Dreamy"];
-                $nouns = ["Paws", "Mittens", "Cupcake", "Pudding", "Marshmallow", "Twinkle", "Mochi", "Rainbow", "Sprinkle", "Cherry"];
+                $adjectives = ["Fluffy", "Sparkly", "Sweet", "Snuggly", "Bouncy", "Chirpy", "Peachy", "Cuddly", "Fuzzy", "Dreamy", "Giggly", "Sunny", "Bubbly", "Twinkly", "Rosy", "Sprinkly", "Whiskery", "Purrly", "Glittery", "Rainbowy"]; 
+                $nouns = ["Paws", "Mittens", "Cupcake", "Pudding", "Marshmallow", "Twinkle", "Mochi", "Rainbow", "Sprinkle", "Cherry", "Blossom", "Sunshine", "Lollipop"];
 
                 $randomAdj = $adjectives[array_rand($adjectives)];
                 $randomNoun = $nouns[array_rand($nouns)];
